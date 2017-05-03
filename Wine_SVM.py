@@ -4,7 +4,7 @@ from sklearn.svm import SVC
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import zero_one_loss
+from sklearn.metrics import zero_one_loss #If normalize is True, return the fraction of misclassifications (float), else it returns the number of misclassifications (int). The best performance is 0.
 
 #import data 
 data =pd.read_csv('/Users/Hoda/Desktop/Insight/wine/winequality-red.csv').values
